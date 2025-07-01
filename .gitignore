@@ -1,0 +1,57 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+.env/
+.venv/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Arquivos de testes
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Arquivos de build/distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Configs de ferramentas
+.mypy_cache/
+.pyre/
+.pytype/
+.pdm.toml
+poetry.lock
+Pipfile.lock
+
+# SQLite ou outros bancos locais
+*.sqlite3
+*.db
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos do sistema operacional
+*.swp
+*.bak
+*.tmp
